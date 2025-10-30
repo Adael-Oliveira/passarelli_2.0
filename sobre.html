@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Agência Moderna</title>
+    <meta name="description" content="Conheça a história, missão, visão e valores da Agência Moderna. Somos apaixonados por ajudar empresas a crescer no mundo digital.">
+    <meta name="keywords" content="sobre nós, agência digital, equipe, missão, visão, valores">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/sobre.html">
+    <meta property="og:title" content="Sobre Nós - Agência Moderna">
+    <meta property="og:description" content="Conheça a história, missão, visão e valores da Agência Moderna.">
+    <meta property="og:image" content="https://example.com/sobre-nos.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com/sobre.html">
+    <meta property="twitter:title" content="Sobre Nós - Agência Moderna">
+    <meta property="twitter:description" content="Conheça a história, missão, visão e valores da Agência Moderna.">
+    <meta property="twitter:image" content="https://example.com/sobre-nos.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/logo.png" type="image/png">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header id="main-header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="/logo.png" alt="Logo" height="32" class="me-2">
+                    <span>Agência<strong>Moderna</strong></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-translate="nav_home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="sobre.html" data-translate="nav_about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicos.html" data-translate="nav_services">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="imoveis.html" data-translate="nav_properties">Imóveis & Fazendas</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="noticias.html" data-translate="nav_news">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html" data-translate="nav_contact">Contato</a>
+                        </li>
+                    </ul>
+                     <!-- Language Switcher -->
+                    <ul class="navbar-nav ms-2">
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id="current-lang-flag"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="pt-BR">🇧🇷 Português</a></li>
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="en">🇬🇧 Inglês</a></li>
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="es">🇵🇾 Espanhol</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header text-center">
+            <div class="container">
+                <h1 class="display-4" data-translate="about_header_title">Sobre Nossa Agência</h1>
+                <p class="lead" data-translate="about_header_subtitle">Conectando ideias, pessoas e resultados.</p>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 fade-in-left">
+                        <img src="sobre-nos.png" class="img-fluid rounded shadow-sm" alt="Nossa equipe trabalhando em um projeto">
+                    </div>
+                    <div class="col-lg-6 mt-4 mt-lg-0 fade-in-right">
+                        <h2 class="display-5" data-translate="about_story_title">Nossa História</h2>
+                        <p class="lead" data-translate="about_story_lead">A PENSA – Passarelli Empreendimentos e Negócios S/A nasceu no Paraguai pelas mãos de brasileiros...</p>
+                        <p data-translate="about_story_p1">Nosso principal foco é conectar brasileiros ao mercado paraguaio...</p>
+                        <p data-translate="about_story_p2">O Paraguai se consolidou como um dos ambientes mais atrativos...</p>
+                        <p data-translate="about_story_p3">Na PENSA, acreditamos que bons negócios nascem quando ideias se conectam...</p>
+                    </div>
+                </div>
+
+                <div class="row mt-5 pt-5 text-center">
+                    <div class="col-md-4 fade-in">
+                        <div class="icon-circle mx-auto mb-3">
+                            <i class="bi bi-rocket-takeoff"></i>
+                        </div>
+                        <h3 data-translate="about_mission_title">Missão</h3>
+                        <p data-translate="about_mission_text">Impulsionar o crescimento de nossos clientes no ambiente digital com soluções inovadoras, criativas e focadas em resultados, estabelecendo parcerias de sucesso e confiança.</p>
+                    </div>
+                     <div class="col-md-4 fade-in" style="animation-delay: 0.2s;">
+                        <div class="icon-circle mx-auto mb-3">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                        <h3 data-translate="about_vision_title">Visão</h3>
+                        <p data-translate="about_vision_text">Ser a agência de referência no mercado, reconhecida pela excelência estratégica, criatividade disruptiva e pela capacidade de transformar desafios em oportunidades de crescimento.</p>
+                    </div>
+                     <div class="col-md-4 fade-in" style="animation-delay: 0.4s;">
+                        <div class="icon-circle mx-auto mb-3">
+                            <i class="bi bi-gem"></i>
+                        </div>
+                        <h3 data-translate="about_values_title">Valores</h3>
+                        <p data-translate="about_values_text">Compromisso com o cliente, Inovação constante, Transparência, Ética, Colaboração e Paixão pelo que fazemos são os pilares que guiam todas as nossas ações.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="https://instagram.com" target="_blank" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="text-white mx-2"><i class="bi bi-linkedin fs-4"></i></a>
+                <a href="https://github.com" target="_blank" class="text-white mx-2"><i class="bi bi-github fs-4"></i></a>
+            </div>
+            <p class="mb-0" data-translate="footer_copyright">&copy; 2024 Agência Moderna. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botões Flutuantes -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/595973877007?text=Olá!" class="float-btn whatsapp" target="_blank" title="Fale conosco no WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com" class="float-btn instagram" target="_blank" title="Siga-nos no Instagram">
+            <i class="bi bi-instagram"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Translation JS -->
+    <script src="translations.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>

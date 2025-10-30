@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias - Agência Moderna</title>
+    <meta name="description" content="Fique por dentro das últimas notícias, artigos e insights sobre negócios, mercado e inovação no Paraguai e no mundo.">
+    <meta name="keywords" content="blog, notícias, artigos, inovação, mercado, negócios">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/noticias.html">
+    <meta property="og:title" content="Notícias - Agência Moderna">
+    <meta property="og:description" content="Fique por dentro das últimas notícias, artigos e insights sobre negócios, mercado e inovação.">
+    <meta property="og:image" content="https://example.com/hero-background.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com/noticias.html">
+    <meta property="twitter:title" content="Notícias - Agência Moderna">
+    <meta property="twitter:description" content="Fique por dentro das últimas notícias, artigos e insights sobre negócios, mercado e inovação.">
+    <meta property="twitter:image" content="https://example.com/hero-background.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/logo.png" type="image/png">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header id="main-header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="/logo.png" alt="Logo" height="32" class="me-2">
+                    <span>Agência<strong>Moderna</strong></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-translate="nav_home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html" data-translate="nav_about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicos.html" data-translate="nav_services">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="imoveis.html" data-translate="nav_properties">Imóveis & Fazendas</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link active" href="noticias.html" data-translate="nav_news">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html" data-translate="nav_contact">Contato</a>
+                        </li>
+                    </ul>
+                     <!-- Language Switcher -->
+                    <ul class="navbar-nav ms-2">
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id="current-lang-flag"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="pt-BR">🇧🇷 Português</a></li>
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="en">🇬🇧 Inglês</a></li>
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="es">🇵🇾 Espanhol</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header text-center">
+            <div class="container">
+                <h1 class="display-4" data-translate="news_header_title">Notícias e Artigos</h1>
+                <p class="lead" data-translate="news_header_subtitle">Conteúdo relevante para manter você sempre à frente.</p>
+            </div>
+        </section>
+
+        <!-- Seção Notícias -->
+        <section id="noticias" class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Post 1 -->
+                    <div class="col-lg-4 col-md-6 fade-in">
+                        <div class="card blog-card h-100">
+                            <img src="blog-post-1.png" class="card-img-top" alt="Reunião de negócios">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" data-translate="news_1_title">Como a nova lei de incentivos fiscais pode beneficiar sua empresa</h5>
+                                <p class="card-text text-muted small" data-translate="news_1_date">15 de Julho, 2024</p>
+                                <p class="card-text flex-grow-1" data-translate="news_1_text_full">Analisamos as principais mudanças na legislação e como você pode aproveitá-las para otimizar sua carga tributária e impulsionar o crescimento do seu negócio no Paraguai.</p>
+                                <a href="#" class="btn btn-outline-primary mt-auto align-self-start" data-translate="btn_read_more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Post 2 -->
+                    <div class="col-lg-4 col-md-6 fade-in" style="animation-delay: 0.2s;">
+                        <div class="card blog-card h-100">
+                            <img src="blog-post-2.png" class="card-img-top" alt="Gráfico de crescimento">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" data-translate="news_2_title">Oportunidades de Investimento no Setor Imobiliário Paraguaio</h5>
+                                <p class="card-text text-muted small" data-translate="news_2_date">10 de Julho, 2024</p>
+                                <p class="card-text flex-grow-1" data-translate="news_2_text_full">O mercado imobiliário no Paraguai continua aquecido. Descubra as regiões mais promissoras para investir em 2024 e como garantir a segurança jurídica da sua transação.</p>
+                                <a href="#" class="btn btn-outline-primary mt-auto align-self-start" data-translate="btn_read_more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Post 3 -->
+                    <div class="col-lg-4 col-md-6 fade-in" style="animation-delay: 0.4s;">
+                        <div class="card blog-card h-100">
+                            <img src="blog-post-3.png" class="card-img-top" alt="Pessoas apertando as mãos">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" data-translate="news_3_title">5 Dicas Essenciais para uma Exportação de Sucesso</h5>
+                                <p class="card-text text-muted small" data-translate="news_3_date">05 de Julho, 2024</p>
+                                <p class="card-text flex-grow-1" data-translate="news_3_text_full">Exportar pode ser um grande passo para sua empresa. Confira nossas dicas para garantir um processo sem complicações, desde a documentação até a logística.</p>
+                                <a href="#" class="btn btn-outline-primary mt-auto align-self-start" data-translate="btn_read_more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Post 4 -->
+                     <div class="col-lg-4 col-md-6 fade-in">
+                        <div class="card blog-card h-100">
+                            <img src="blog-post-4.png" class="card-img-top" alt="Container port">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" data-translate="news_4_title">Regime de Maquila: Um Guia Completo para Iniciantes</h5>
+                                <p class="card-text text-muted small" data-translate="news_4_date">01 de Julho, 2024</p>
+                                <p class="card-text flex-grow-1" data-translate="news_4_text_full">Entenda o que é o regime de Maquila, quais são seus benefícios e como a sua indústria pode se aproveitar dessas vantagens competitivas para produzir no Paraguai.</p>
+                                <a href="#" class="btn btn-outline-primary mt-auto align-self-start" data-translate="btn_read_more">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="https://instagram.com" target="_blank" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="text-white mx-2"><i class="bi bi-linkedin fs-4"></i></a>
+                <a href="https://github.com" target="_blank" class="text-white mx-2"><i class="bi bi-github fs-4"></i></a>
+            </div>
+            <p class="mb-0" data-translate="footer_copyright">&copy; 2024 Agência Moderna. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botões Flutuantes -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/595973877007?text=Olá!" class="float-btn whatsapp" target="_blank" title="Fale conosco no WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com" class="float-btn instagram" target="_blank" title="Siga-nos no Instagram">
+            <i class="bi bi-instagram"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Translation JS -->
+    <script src="translations.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>

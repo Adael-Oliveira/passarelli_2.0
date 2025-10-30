@@ -1,0 +1,317 @@
+/* --- GERAL & RESET --- */
+:root {
+    --primary-color: #E53935; /* Vermelho */
+    --secondary-color: #F5F5F5; /* Cinza claro */
+    --dark-color: #212121; /* Cinza escuro/preto */
+    --text-color: #212121;
+    --font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* Ajuste para o header fixo */
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--dark-color);
+}
+
+/* --- ANIMAÇÕES DE ENTRADA --- */
+.fade-in, .fade-in-left, .fade-in-right {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-left { transform: translateX(-30px); }
+.fade-in-right { transform: translateX(30px); }
+
+.visible {
+    opacity: 1;
+    transform: translateY(0) translateX(0);
+}
+
+
+/* --- CABEÇALHO (HEADER) --- */
+#main-header {
+    transition: top 0.4s ease-in-out, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+#main-header.header-hidden {
+    top: -100px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar-brand strong {
+    color: var(--primary-color);
+}
+
+.nav-link {
+    font-weight: 400;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+}
+
+#languageDropdown {
+    font-weight: 400;
+}
+#languageDropdown:hover {
+    font-weight: 400;
+}
+.dropdown-item {
+    font-weight: 400;
+}
+.dropdown-item:active {
+    background-color: var(--primary-color);
+}
+.dropdown-menu {
+    min-width: auto;
+}
+
+.category-tabs {display:flex; background:#fff; border-radius:999px; padding:6px; box-shadow:0 6px 20px rgba(0,0,0,.06); margin:0 auto;}
+.category-tabs .nav-link {border:2px solid transparent; border-radius:999px; margin:0; padding:12px 22px; background:transparent; color:var(--dark-color); transition:all .2s; display:flex; align-items:center; gap:10px; font-weight:600;}
+.category-tabs .nav-link i {font-size:1.1rem; opacity:.8;}
+.category-tabs .nav-link:hover {transform:translateY(-1px); box-shadow:none; background:var(--secondary-color);}
+.category-tabs .nav-link.active {background:#fff; color:var(--primary-color); border-color:var(--primary-color); box-shadow:0 4px 12px rgba(229,57,53,.18);}
+
+/* Exclusive category sections */
+.category-section {display:none; animation: fadeSection .25s ease;}
+.category-section.active {display:block;}
+
+@keyframes fadeSection {
+    from {opacity:0; transform: translateY(6px);}
+    to {opacity:1; transform: translateY(0);}
+}
+
+main {
+    padding-top: 70px; /* Espaçamento para o cabeçalho fixo */
+}
+
+/* --- PAGE HEADER (para páginas internas) --- */
+.page-header {
+    background: var(--dark-color);
+    color: white;
+    padding: 60px 0 40px 0;
+    margin-top: -70px; /* Compensa o padding-top do body */
+    text-align: center;
+}
+
+.page-header h1 {
+    color: white;
+    font-weight: 700;
+}
+
+/* --- BOTÕES E CTAs --- */
+.cta-button {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #c62828; /* Tom mais escuro do vermelho */
+    border-color: #c62828;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* --- SEÇÃO HOME --- */
+#home {
+    height: 100vh;
+    min-height: 600px;
+    background: url('hero-background.png') no-repeat center center/cover;
+    color: white;
+    position: relative;
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Overlay escuro para legibilidade */
+}
+
+#home .container {
+    position: relative;
+    z-index: 2;
+}
+
+#home h1 {
+    color: white;
+    font-weight: 700;
+}
+
+/* --- SEÇÃO SOBRE --- */
+#sobre {
+    padding: 80px 0;
+}
+
+#sobre .icon-circle {
+    width: 80px;
+    height: 80px;
+    font-size: 2.5rem;
+}
+
+/* --- SEÇÃO SERVIÇOS --- */
+#servicos {
+    padding: 80px 0;
+}
+
+.service-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(229, 57, 53, 0.1); /* Fundo com base no vermelho primário */
+    color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-card:hover .icon-circle {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* --- SEÇÃO NOTÍCIAS / BLOG --- */
+.blog-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.blog-card .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+}
+
+/* --- SEÇÃO CONTATO --- */
+#contato {
+    padding: 80px 0;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: var(--primary-color);
+}
+
+#contact-form .form-control {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#contact-form .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(229, 57, 53, 0.25); /* Sombra com base no vermelho primário */
+}
+
+/* --- RODAPÉ --- */
+footer {
+    padding: 40px 0;
+}
+
+.social-icons a {
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.social-icons a:hover {
+    color: var(--primary-color) !important;
+    transform: translateY(-3px);
+}
+
+/* --- BOTÕES FLUTUANTES --- */
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1030;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.float-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.float-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    color: white;
+}
+
+.float-btn.whatsapp {
+    background-color: #25D366;
+}
+
+.float-btn.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}

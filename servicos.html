@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Serviços - Agência Moderna</title>
+    <meta name="description" content="Oferecemos uma gama completa de serviços para impulsionar seus negócios no Paraguai: abertura de empresas, maquila, importação e exportação, e mais.">
+    <meta name="keywords" content="serviços, abertura de empresas, maquila, importação, exportação, legalização, representação, imóveis paraguai">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/servicos.html">
+    <meta property="og:title" content="Nossos Serviços - Agência Moderna">
+    <meta property="og:description" content="Oferecemos uma gama completa de serviços para impulsionar seus negócios no Paraguai.">
+    <meta property="og:image" content="https://example.com/hero-background.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com/servicos.html">
+    <meta property="twitter:title" content="Nossos Serviços - Agência Moderna">
+    <meta property="twitter:description" content="Oferecemos uma gama completa de serviços para impulsionar seus negócios no Paraguai.">
+    <meta property="twitter:image" content="https://example.com/hero-background.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/logo.png" type="image/png">
+</head>
+<body>
+
+    <!-- Cabeçalho e Navegação -->
+    <header id="main-header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="/logo.png" alt="Logo" height="32" class="me-2">
+                    <span>Agência<strong>Moderna</strong></span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-translate="nav_home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html" data-translate="nav_about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="servicos.html" data-translate="nav_services">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="imoveis.html" data-translate="nav_properties">Imóveis & Fazendas</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="noticias.html" data-translate="nav_news">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html" data-translate="nav_contact">Contato</a>
+                        </li>
+                    </ul>
+                     <!-- Language Switcher -->
+                    <ul class="navbar-nav ms-2">
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id="current-lang-flag"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="pt-BR">🇧🇷 Português</a></li>
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="en">🇬🇧 Inglês</a></li>
+                                <li><a class="dropdown-item lang-switcher" href="#" data-lang="es">🇵🇾 Espanhol</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header text-center">
+            <div class="container">
+                <h1 class="display-4" data-translate="services_header_title">Nossos Serviços</h1>
+                <p class="lead" data-translate="services_header_subtitle">Soluções estratégicas para o sucesso do seu negócio.</p>
+            </div>
+        </section>
+
+        <!-- Seção Serviços -->
+        <section id="servicos" class="py-5 bg-light">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch fade-in">
+                        <div class="card service-card text-center">
+                            <div class="card-body">
+                                <div class="icon-circle mx-auto mb-3">
+                                    <i class="bi bi-briefcase"></i>
+                                </div>
+                                <h5 class="card-title" data-translate="service_1_title">Identidade paraguaia (provisória e permanente)</h5>
+                                <p class="card-text" data-translate="service_1_text_full">Apoio completo no processo de obtenção de residência no Paraguai, garantindo segurança e agilidade para sua nova fase.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch fade-in" style="animation-delay: 0.2s;">
+                        <div class="card service-card text-center">
+                            <div class="card-body">
+                                <div class="icon-circle mx-auto mb-3">
+                                    <i class="bi bi-gear-wide-connected"></i>
+                                </div>
+                                <h5 class="card-title" data-translate="service_2_title">Habilitação</h5>
+                                <p class="card-text" data-translate="service_2_text_full">Auxílio na emissão da carteira de motorista paraguaia, com praticidade e orientção em todas as etapas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch fade-in" style="animation-delay: 0.4s;">
+                        <div class="card service-card text-center">
+                            <div class="card-body">
+                                <div class="icon-circle mx-auto mb-3">
+                                    <i class="bi bi-globe-americas"></i>
+                                </div>
+                                <h5 class="card-title" data-translate="service_3_title">Abertura de empresa</h5>
+                                <p class="card-text" data-translate="service_3_text_full">Estruturação e formalização de negócios no Paraguai, com acompanhamento jurídico e contábil desde o início.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch fade-in">
+                        <div class="card service-card text-center">
+                            <div class="card-body">
+                                <div class="icon-circle mx-auto mb-3">
+                                    <i class="bi bi-patch-check"></i>
+                                </div>
+                                <h5 class="card-title" data-translate="service_4_title">Contabilidade</h5>
+                                <p class="card-text" data-translate="service_4_text_full">Gestão contábil transparente e eficiente, alinhada às normas locais para garantir tranquilidade fiscal ao investidor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch fade-in" style="animation-delay: 0.2s;">
+                        <div class="card service-card text-center">
+                            <div class="card-body">
+                                <div class="icon-circle mx-auto mb-3">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                                <h5 class="card-title" data-translate="service_5_title">Suporte jurídico para empresas e imóveis</h5>
+                                <p class="card-text" data-translate="service_5_text_full">Acessoria especializada em direito empresarial e imobiliário, assegurando proteção legal em todas as operações.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch fade-in" style="animation-delay: 0.4s;">
+                        <div class="card service-card text-center">
+                            <div class="card-body">
+                                <div class="icon-circle mx-auto mb-3">
+                                    <i class="bi bi-house-door"></i>
+                                </div>
+                                <h5 class="card-title" data-translate="service_6_title">Benefícios fiscais (Lei de Maquila)</h5>
+                                <p class="card-text" data-translate="service_6_text_full">Consultoria estratégica para aproveitar incentivos fiscais e ampliar a competitividade da sua empresa no Paraguai.</p>
+                            </div>
+                        </div>
+                    </div>
+                                      <!-- Card 7 -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch fade-in" style="animation-delay: 0.4s;">
+                        <div class="card service-card text-center">
+                            <div class="card-body">
+                                <div class="icon-circle mx-auto mb-3">
+                                    <i class="bi bi-house-door"></i>
+                                </div>
+                                <h5 class="card-title" data-translate="service_7_title">Importação e exportação de bens e equipamentos</h5>
+                                <p class="card-text" data-translate="service_7_text_full">Orientação e suporte para operações internacionais, simplificando processos de comércio exterior entre Brasil e Paraguai.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato (CTA) -->
+        <section id="contato-cta" class="py-5 bg-dark text-white">
+            <div class="container text-center fade-in">
+                 <h2 class="display-5" data-translate="services_cta_title">Tem um projeto em mente?</h2>
+                 <p class="lead my-4" data-translate="services_cta_subtitle">Vamos conversar sobre como nossos serviços podem ajudar você a alcançar seus objetivos.</p>
+                 <a href="contato.html" class="btn btn-primary btn-lg cta-button" data-translate="btn_contact_us">Entre em Contato</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="https://instagram.com" target="_blank" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="text-white mx-2"><i class="bi bi-linkedin fs-4"></i></a>
+                <a href="https://github.com" target="_blank" class="text-white mx-2"><i class="bi bi-github fs-4"></i></a>
+            </div>
+            <p class="mb-0" data-translate="footer_copyright">&copy; 2024 Agência Moderna. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botões Flutuantes -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/595973877007?text=Olá!" class="float-btn whatsapp" target="_blank" title="Fale conosco no WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com" class="float-btn instagram" target="_blank" title="Siga-nos no Instagram">
+            <i class="bi bi-instagram"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Translation JS -->
+    <script src="translations.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
