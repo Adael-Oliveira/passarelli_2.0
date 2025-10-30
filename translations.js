@@ -72,35 +72,45 @@ const translations = {
         "about_story_p1": "Nosso principal foco é conectar brasileiros ao mercado paraguaio, oferecendo soluções seguras e completas para quem deseja expandir seus negócios ou diversificar investimentos. Atuamos especialmente junto a empresários, pecuaristas e agricultores, além de investidores interessados em imóveis e empreendimentos estratégicos.",
         "about_story_p2": "O Paraguai se consolidou como um dos ambientes mais atrativos da América Latina, com tributação reduzida, estabilidade jurídica e segurança para investimentos. Nosso papel é transformar essa oportunidade em realidade para nossos clientes, garantindo todo o amparo necessário: assessoria jurídica, tributária, contábil e administrativa, desde a aquisição até a gestão de bens e empreendimentos construídos.",
         "about_story_p3": "Na PENSA, acreditamos que bons negócios nascem quando ideias se conectam. Por isso, trabalhamos para que cada investimento seja mais do que seguro — seja também estratégico, eficiente e sustentável no longo prazo.",
+        
         "about_mission_title": "Missão",
-        "about_mission_text": "Impulsionar o crescimento de nossos clientes no ambiente digital com soluções inovadoras, criativas e focadas em resultados, estabelecendo parcerias de sucesso e confiança.",
+        "about_mission_text": "Facilitar o investimento de brasileiros no Paraguai, com segurança, transparência e suporte completo em todas as etapas.",
         "about_vision_title": "Visão",
-        "about_vision_text": "Ser a agência de referência no mercado, reconhecida pela excelência estratégica, criatividade disruptiva e pela capacidade de transformar desafios em oportunidades de crescimento.",
+        "about_vision_text": "Ser referência em assessoria internacional e a principal ponte entre o empreendedorismo brasileiro e o mercado paraguaio.",
         "about_values_title": "Valores",
-        "about_values_text": "Compromisso com o cliente, Inovação constante, Transparência, Ética, Colaboração e Paixão pelo que fazemos são os pilares que guiam todas as nossas ações.",
+        "about_values_text": "Confiança • Segurança • Inovação • Comprometimento • Integração",
+        
         "services_header_title": "Nossos Serviços",
         "services_header_subtitle": "Soluções estratégicas para o sucesso do seu negócio.",
         "services_cta_title": "Tem um projeto em mente?",
         "services_cta_subtitle": "Vamos conversar sobre como nossos serviços podem ajudar você a alcançar seus objetivos.",
+        
         "btn_contact_us": "Entre em Contato",
+        
         "news_header_title": "Notícias e Artigos",
         "news_header_subtitle": "Conteúdo relevante para manter você sempre à frente.",
+        
         "contact_header_title": "Entre em Contato",
         "contact_header_subtitle": "Estamos prontos para ouvir sobre o seu próximo projeto.",
+        
         "form_title": "Envie uma Mensagem",
         "form_name": "Nome",
         "form_email": "E-mail",
         "form_phone": "Telefone",
         "form_message": "Mensagem",
         "form_submit_btn": "Enviar Mensagem",
+        
         "contact_info_title": "Informações de Contato",
         "contact_info_address": "Depto 410 - 4º piso - Ciudad Del Este - Alto Paraná - Paraguai",
         "contact_info_hours_title": "Horário de Atendimento",
         "contact_info_hours_text": "Segunda a Sexta, das 9h às 18h",
         "contact_info_connect_title": "Conecte-se conosco",
         "contact_info_whatsapp_btn": "<i class=\"bi bi-whatsapp me-2\"></i> Iniciar Conversa no WhatsApp",
+        
         "whatsapp_greeting": "Olá! Gostaria de um contato através do site.",
+        
         "btn_trace_route": "<i class=\"bi bi-pin-map-fill me-2\"></i> Traçar Rota",
+       
         "properties_header_title": "Imóveis & Fazendas",
         "properties_header_subtitle": "Selecione a categoria e explore oportunidades com segurança jurídica e eficiência.",
         "properties_category_real_estate": "Imóveis",
@@ -197,12 +207,14 @@ const translations = {
         "about_story_lead": "PENSA – Passarelli Empreendimentos e Negócios S/A was founded in Paraguay by Brazilians who believe in the power of integration between the two countries and in the strength of the opportunities this scenario offers.",
         "about_story_p1": "Our main focus is to connect Brazilians to the Paraguayan market, providing safe and complete solutions for those looking to expand their businesses or diversify their investments. We work especially with entrepreneurs, ranchers, and farmers, as well as investors interested in real estate and strategic ventures.",
         "about_story_p2": "Paraguay has established itself as one of the most attractive environments in Latin America, with low taxation, legal stability, and investment security. Our role is to turn this opportunity into reality for our clients, providing all necessary support: legal, tax, accounting, and administrative advisory, from acquisition to the management of assets and developed enterprises.At PENSA, we believe good business is born when ideas connect. That’s why we work to ensure that every investment is not only safe but also strategic, efficient, and sustainable in the long term.",
+        
         "about_mission_title": "Mission",
-        "about_mission_text": "To drive our clients' growth in the digital environment with innovative, creative, and results-focused solutions, establishing successful and trusting partnerships.",
+        "about_mission_text": "To facilitate Brazilian investment in Paraguay with security, transparency, and complete support at every stage.",
         "about_vision_title": "Vision",
-        "about_vision_text": "To be the benchmark agency in the market, recognized for strategic excellence, disruptive creativity, and the ability to turn challenges into growth opportunities.",
+        "about_vision_text": "To be a benchmark in international advisory services and the main bridge between Brazilian entrepreneurship and the Paraguayan market.",
         "about_values_title": "Values",
-        "about_values_text": "Customer commitment, constant innovation, transparency, ethics, collaboration, and passion for what we do are the pillars that guide all our actions.",
+        "about_values_text": "Trust • Security • Innovation • Commitment • Integration",
+        
         "services_header_title": "Our Services",
         "services_header_subtitle": "Strategic solutions for the success of your business.",
         "services_cta_title": "Have a project in mind?",
@@ -322,12 +334,14 @@ const translations = {
         "about_story_lead": "PENSA – Passarelli Emprendimientos y Negocios S/A nació en Paraguay de la mano de brasileños que creen en el poder de la integración entre ambos países y en la fuerza de las oportunidades que este escenario ofrece.",
         "about_story_p1": "Nuestro principal objetivo es conectar a los brasileños con el mercado paraguayo, ofreciendo soluciones seguras y completas para quienes desean expandir sus negocios o diversificar inversiones. Trabajamos especialmente con empresarios, ganaderos y agricultores, así como con inversores interesados en inmuebles y emprendimientos estratégicos.",
         "about_story_p2": "Paraguay se ha consolidado como uno de los entornos más atractivos de América Latina, con baja tributación, estabilidad jurídica y seguridad para las inversiones. Nuestro papel es transformar esta oportunidad en realidad para nuestros clientes, brindando todo el apoyo necesario: asesoría jurídica, tributaria, contable y administrativa, desde la adquisición hasta la gestión de bienes y emprendimientos construidos.En PENSA, creemos que los buenos negocios nacen cuando las ideas se conectan. Por eso, trabajamos para que cada inversión no solo sea segura, sino también estratégica, eficiente y sostenible a largo plazo.",
+        
         "about_mission_title": "Misión",
-        "about_mission_text": "Impulsar el crecimiento de nuestros clientes en el entorno digital con soluciones innovadoras, creativas y enfocadas en resultados, estableciendo alianzas de éxito y confianza.",
+        "about_mission_text": "Facilitar la inversión de brasileños en Paraguay con seguridad, transparencia y apoyo completo en todas las etapas.",
         "about_vision_title": "Visión",
-        "about_vision_text": "Ser la agencia de referencia en el mercado, reconocida por la excelencia estratégica, la creatividad disruptiva y la capacidad de transformar desafíos en oportunidades de crecimiento.",
+        "about_vision_text": "Ser una referencia en asesoría internacional y el principal puente entre el emprendimiento brasileño y el mercado paraguayo.",
         "about_values_title": "Valores",
-        "about_values_text": "Compromiso con el cliente, Innovación constante, Transparencia, Ética, Colaboración y Pasión por lo que hacemos son los pilares que guían todas nuestras acciones.",
+        "about_values_text": "Confianza • Seguridad • Innovación • Compromiso • Integración",
+        
         "services_header_title": "Nuestros Servicios",
         "services_header_subtitle": "Soluciones estratégicas para el éxito de su negocio.",
         "services_cta_title": "¿Tiene un proyecto en mente?",
