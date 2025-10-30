@@ -138,7 +138,7 @@ main {
 #home {
     height: 100vh;
     min-height: 600px;
-    background: url('hero-background.png') no-repeat center center/cover;
+    background: url('imagensSite/hero-background.png') no-repeat center center/cover;
     color: white;
     position: relative;
 }
