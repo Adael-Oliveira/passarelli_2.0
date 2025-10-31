@@ -259,30 +259,38 @@ const translations = {
         "properties_label_farm": "Farm",
         "properties_label_location": "Location:",
         "properties_label_price": "Price:",
-        "property_re_1_title": "Modern apartment - Downtown Cd. del Este",
-        "property_re_1_location": "Downtown, Ciudad del Este",
-        "property_re_1_desc": "2 bedrooms, 2 bathrooms, balcony, parking, close to shops and services.",
-        "property_re_1_price": "USD 135,000",
+        
+        "property_re_1_title": "Santa Mónica Industrial Park",
+        "property_re_1_location": "Hernandarias, Alto Paraná – Paraguay",
+        "property_re_1_desc": "Planned development with 24-hour security, located near the ANDE substation, featuring condominium management and full legal approval. Lots of 1,200 m², tax benefits, and special conditions for subdivision.",
+        "property_re_1_price": "Upon request",
+
+        
         "property_re_2_title": "Single-story house - Boqueirão neighborhood",
         "property_re_2_location": "Boqueirão, Ciudad del Este",
         "property_re_2_desc": "3 bedrooms, 1 suite, gourmet area, large backyard, quiet street.",
         "property_re_2_price": "USD 98,000",
+        
         "property_re_3_title": "Commercial office - Business Park",
         "property_re_3_location": "Business Park, Ciudad del Este",
         "property_re_3_desc": "40 m², move-in ready, building with amenities and security.",
         "property_re_3_price": "USD 55,000",
+        
         "property_farm_1_title": "Productive farm - Soy and corn",
         "property_farm_1_location": "Alto Paraná, Paraguay",
         "property_farm_1_desc": "300 ha mechanized, main house, sheds, easy access and proper documentation.",
         "property_farm_1_price": "On request",
+       
         "property_farm_2_title": "Cattle ranch - Pasture and fencing",
         "property_farm_2_location": "Canindeyú, Paraguay",
         "property_farm_2_desc": "200 ha, abundant water, corrals, paddocks and year-round access.",
         "property_farm_2_price": "USD 1,250,000",
+        
         "property_farm_3_title": "Rural area - Expansion potential",
         "property_farm_3_location": "Itapúa, Paraguay",
         "property_farm_3_desc": "150 ha, favorable topography, road access and consolidated surroundings.",
         "property_farm_3_price": "USD 750,000",
+       
         "btn_view_details": "View details",
         "properties_cta_contact": "Interested? Contact us"
     },
@@ -386,30 +394,38 @@ const translations = {
         "properties_label_farm": "Estancia",
         "properties_label_location": "Ubicación:",
         "properties_label_price": "Precio:",
-        "property_re_1_title": "Departamento moderno - Centro de Cd. del Este",
-        "property_re_1_location": "Centro, Ciudad del Este",
-        "property_re_1_desc": "2 dormitorios, 2 baños, balcón, cochera, cerca de comercios y servicios.",
-        "property_re_1_price": "USD 135.000",
+        
+        "property_re_1_title": "Parque Industrial Santa Mónica",
+        "property_re_1_location": "Hernandarias, Alto Paraná – Paraguay",
+        "property_re_1_desc": "Emprendimiento planificado con seguridad las 24 horas, ubicado cerca de la subestación de la ANDE, con administración de condominio y aprobación legal completa. Lotes de 1.200 m², beneficios fiscales y condiciones especiales para subdivisión.",
+        "property_re_1_price": "A consultar",
+
+       
         "property_re_2_title": "Casa de una planta - Barrio Boqueirão",
         "property_re_2_location": "Boqueirão, Ciudad del Este",
         "property_re_2_desc": "3 dormitorios, 1 suite, área gourmet, patio amplio, calle tranquila.",
         "property_re_2_price": "USD 98.000",
+        
         "property_re_3_title": "Oficina comercial - Polo Empresarial",
         "property_re_3_location": "Polo Empresarial, Ciudad del Este",
         "property_re_3_desc": "40 m², lista para usar, edificio con infraestructura y seguridad.",
         "property_re_3_price": "USD 55.000",
+        
         "property_farm_1_title": "Estancia productiva - Soja y maíz",
         "property_farm_1_location": "Alto Paraná, Paraguay",
         "property_farm_1_desc": "300 ha mecanizadas, casa principal, galpones, acceso fácil y documentación al día.",
         "property_farm_1_price": "A consultar",
+        
         "property_farm_2_title": "Ganadera - Pasto formado y cercos",
         "property_farm_2_location": "Canindeyú, Paraguay",
         "property_farm_2_desc": "200 ha, agua abundante, corrales, divisiones y acceso todo el año.",
         "property_farm_2_price": "USD 1.250.000",
+        
         "property_farm_3_title": "Área rural - Potencial de expansión",
         "property_farm_3_location": "Itapúa, Paraguay",
         "property_farm_3_desc": "150 ha, topografía favorable, acceso por carretera y entorno consolidado.",
         "property_farm_3_price": "USD 750.000",
+        
         "btn_view_details": "Ver detalles",
         "properties_cta_contact": "¿Interesado? Contáctenos"
     }
