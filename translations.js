@@ -280,7 +280,7 @@ const translations = {
 "property_farm_1_title": "Ñacunday District, Alto Paraná Department",
 "property_farm_1_location": "Alto Paraná, Paraguay",
 "property_farm_1_desc": "This impressive property covers 406 hectares, offering a perfect balance between agricultural production and environmental preservation. There are 350 hectares of mechanized land ideal for cultivation, while 55 hectares of forest provide privacy, biodiversity, and sustainability. The infrastructure is complete: approximately 5 km of internal roads connect the entire area, facilitating logistics and access to all parts of the property. Electricity reaches the southern boundary, providing convenience for facilities and operations. Currently, there is no perimeter fence, allowing flexibility for future projects and agricultural expansion.",
-"property_farm_1_price": "USD $20,000.00 per hectare"
+"property_farm_1_price": "USD $20,000.00 per hectare",
 
        
         "property_farm_2_title": "Cattle ranch - Pasture and fencing",
@@ -416,7 +416,7 @@ const translations = {
 "property_farm_1_title": "Distrito de Ñacunday, departamento de Alto Paraná",
 "property_farm_1_location": "Alto Paraná, Paraguay",
 "property_farm_1_desc": "Esta impresionante propiedad abarca 406 hectáreas, ofreciendo un equilibrio perfecto entre producción agrícola y preservación ambiental. Cuenta con 350 hectáreas mecanizadas ideales para el cultivo, mientras que 55 hectáreas de bosque proporcionan privacidad, biodiversidad y sostenibilidad. La infraestructura es completa: aproximadamente 5 km de caminos internos conectan toda el área, facilitando la logística y el acceso a todas las partes de la propiedad. La electricidad llega hasta el límite sur, proporcionando comodidad para las instalaciones y operaciones. Actualmente, no hay cerca perimetral, lo que permite flexibilidad para proyectos futuros y expansión agrícola.",
-"property_farm_1_price": "USD $20,000.00 por hectárea"
+"property_farm_1_price": "USD $20,000.00 por hectárea",
 
         
         "property_farm_2_title": "Ganadera - Pasto formado y cercos",
