@@ -315,3 +315,18 @@ footer {
 .float-btn.instagram {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
+
+/* --- PADRONIZAÇÃO DAS IMAGENS DOS IMÓVEIS --- */
+.property-card .card-img-top,
+.card.property img,
+.card-img-top.property,
+.property-item img {
+    width: 100%;
+    max-width: 522px;        /* mantém a largura máxima */
+    aspect-ratio: 3 / 2;     /* proporção 3:2 */
+    height: auto;            /* mantém a proporção automática */
+    object-fit: cover;       /* preenche sem distorcer */
+    border-radius: 12px;     /* opcional: deixa mais bonito */
+    display: block;
+    margin: 0 auto;          /* centraliza se necessário */
+}
