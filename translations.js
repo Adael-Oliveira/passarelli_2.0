@@ -140,7 +140,7 @@ const translations = {
 
         // Fazendas
             //1
-      "property_farm_1_title": "Distrito de Ñacunday, departamento de Alto Paraná",
+      "property_farm_1_title": "Distrito de Nacunday, departamento de Alto Paraná",
         "property_farm_1_location": "Alto Paraná, Paraguai",
         "property_farm_1_desc": "Esta impressionante propriedade ocupa 406 hectares, oferecendo um equilíbrio perfeito entre produção agrícola e preservação ambiental. São 350 hectares mecanizados ideais para cultivo, enquanto 55 hectares de floresta garantem privacidade, biodiversidade e sustentabilidade. A infraestrutura é completa: aproximadamente 5 km de estradas internas conectam toda a área, facilitando logística e acesso a todas as partes da propriedade. A eletricidade chega até a divisa sul, proporcionando conveniência para instalações e operações. Atualmente, não há cerca perimetral de arame, oferecendo flexibilidade para projetos futuros e expansão agrícola.",
         "property_farm_1_price": "USD $20,000.00 por hectare",
@@ -277,7 +277,7 @@ const translations = {
         "property_re_3_desc": "40 m², move-in ready, building with amenities and security.",
         "property_re_3_price": "USD 55,000",
         
-"property_farm_1_title": "Ñacunday District, Alto Paraná Department",
+"property_farm_1_title": "Nacunday District, Alto Paraná Department",
 "property_farm_1_location": "Alto Paraná, Paraguay",
 "property_farm_1_desc": "This impressive property covers 406 hectares, offering a perfect balance between agricultural production and environmental preservation. There are 350 hectares of mechanized land ideal for cultivation, while 55 hectares of forest provide privacy, biodiversity, and sustainability. The infrastructure is complete: approximately 5 km of internal roads connect the entire area, facilitating logistics and access to all parts of the property. Electricity reaches the southern boundary, providing convenience for facilities and operations. Currently, there is no perimeter fence, allowing flexibility for future projects and agricultural expansion.",
 "property_farm_1_price": "USD $20,000.00 per hectare",
@@ -413,7 +413,7 @@ const translations = {
         "property_re_3_desc": "40 m², lista para usar, edificio con infraestructura y seguridad.",
         "property_re_3_price": "USD 55.000",
         
-"property_farm_1_title": "Distrito de Ñacunday, departamento de Alto Paraná",
+"property_farm_1_title": "Distrito de Nacunday, departamento de Alto Paraná",
 "property_farm_1_location": "Alto Paraná, Paraguay",
 "property_farm_1_desc": "Esta impresionante propiedad abarca 406 hectáreas, ofreciendo un equilibrio perfecto entre producción agrícola y preservación ambiental. Cuenta con 350 hectáreas mecanizadas ideales para el cultivo, mientras que 55 hectáreas de bosque proporcionan privacidad, biodiversidad y sostenibilidad. La infraestructura es completa: aproximadamente 5 km de caminos internos conectan toda el área, facilitando la logística y el acceso a todas las partes de la propiedad. La electricidad llega hasta el límite sur, proporcionando comodidad para las instalaciones y operaciones. Actualmente, no hay cerca perimetral, lo que permite flexibilidad para proyectos futuros y expansión agrícola.",
 "property_farm_1_price": "USD $20,000.00 por hectárea",
