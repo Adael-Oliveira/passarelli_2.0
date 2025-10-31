@@ -119,31 +119,45 @@ const translations = {
         "properties_label_farm": "Fazenda",
         "properties_label_location": "Localização:",
         "properties_label_price": "Preço:",
-        "property_re_1_title": "Apartamento moderno - Centro de Cd. del Este",
-        "property_re_1_location": "Centro, Ciudad del Este",
-        "property_re_1_desc": "2 quartos, 2 banheiros, varanda, vaga, próximo a comércios e serviços.",
-        "property_re_1_price": "USD 135.000",
+       // Imóveis
+        //1
+        "property_re_1_title": "Parque Industrial Santa Mónica",
+        "property_re_1_location": "Hernandarias, Alto Paraná – Paraguai",
+        "property_re_1_desc": "Empreendimento planejado com segurança 24 horas e infraestrutura completa. Localizado próximo à subestação da ANDE, conta com administração de condomínio e todas as aprovações legais: Prefeitura de Hernandarias e Ministério da Indústria e Comércio (nº 4). Lotes amplos de 1.200 m² com benefícios fiscais exclusivos, redução no imposto de construção e condições especiais para subdivisão. Uma oportunidade única para investir, construir e crescer com segurança.",
+        "property_re_1_price": "Sob consulta",
+
+        
+        //2
         "property_re_2_title": "Casa térrea - Bairro Boqueirão",
         "property_re_2_location": "Boqueirão, Ciudad del Este",
         "property_re_2_desc": "3 quartos, 1 suíte, espaço gourmet, quintal amplo, rua tranquila.",
         "property_re_2_price": "USD 98.000",
+        
+        //3
         "property_re_3_title": "Sala comercial - Polo Empresarial",
         "property_re_3_location": "Polo Empresarial, Ciudad del Este",
         "property_re_3_desc": "40m², pronta para uso, condomínio com estrutura e segurança.",
         "property_re_3_price": "USD 55.000",
+
+        // Fazendas
+            //1
         "property_farm_1_title": "Fazenda produtiva - Soja e milho",
         "property_farm_1_location": "Alto Paraná, Paraguai",
         "property_farm_1_desc": "300 ha mecanizados, casa sede, galpões, acesso facilitado e documentação em dia.",
         "property_farm_1_price": "Sob consulta",
+            //2
         "property_farm_2_title": "Pecuária - Pasto formado e cercas",
         "property_farm_2_location": "Canindeyú, Paraguai",
         "property_farm_2_desc": "200 ha, água em abundância, currais, divisões e acesso o ano todo.",
         "property_farm_2_price": "USD 1.250.000",
+            //3
         "property_farm_3_title": "Área rural - Potencial de expansão",
         "property_farm_3_location": "Itapúa, Paraguai",
         "property_farm_3_desc": "150 ha, topografia favorável, acesso por estrada e vizinhança consolidada.",
         "property_farm_3_price": "USD 750.000",
+        
         "btn_view_details": "Ver detalhes",
+        
         "properties_cta_contact": "Interessado? Fale conosco"
     },
     "en": {
