@@ -63,7 +63,7 @@ const translations = {
         "contact_cta_subtitle": "Entre em contato conosco e vamos transformar suas ideias em realidade.",
         "contact_cta_button": "Fale Conosco",
        
-        "footer_copyright": "&copy; 2024 Agência Moderna. Todos os direitos reservados.",
+        "footer_copyright": "&copy; 2025 PENSA. Todos os direitos reservados.",
        
         "about_header_title": "Sobre a PENSA",
         "about_header_subtitle": "Conectando ideias, pessoas e resultados.",
@@ -214,7 +214,7 @@ const translations = {
         "contact_cta_title": "Ready to start?",
         "contact_cta_subtitle": "Contact us and let's turn your ideas into reality.",
         "contact_cta_button": "Contact Us",
-        "footer_copyright": "&copy; 2024 Moderna Agency. All rights reserved.",
+        "footer_copyright": "&copy; 2025 PENSA. All rights reserved",
         "about_header_title": "About Our Agency",
         "about_header_subtitle": "Connecting ideas, people, and results.",
         "about_story_title": "Our History",
@@ -350,7 +350,7 @@ const translations = {
         "contact_cta_title": "¿Listo para empezar?",
         "contact_cta_subtitle": "Contáctenos y transformemos sus ideas en realidad.",
         "contact_cta_button": "Contáctenos",
-        "footer_copyright": "&copy; 2024 Agencia Moderna. Todos los derechos reservados.",
+        "footer_copyright": "&copy; 2025 PENSA. Todos los derechos reservados.",
         "about_header_title": "Sobre Nuestra Agencia",
         "about_header_subtitle": "Conectando ideas, personas y resultados.",
         "about_story_title": "Nuestra Historia",
