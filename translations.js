@@ -121,11 +121,10 @@ const translations = {
         "properties_label_price": "Preço:",
        // Imóveis
         //1
-        "property_re_1_title": "Parque Industrial Santa Mónica",
-        "property_re_1_location": "Hernandarias, Alto Paraná – Paraguai",
-        "property_re_1_desc": "Empreendimento planejado com segurança 24 horas e infraestrutura completa. Localizado próximo à subestação da ANDE, conta com administração de condomínio e todas as aprovações legais: Prefeitura de Hernandarias e Ministério da Indústria e Comércio (nº 4). Lotes amplos de 1.200 m² com benefícios fiscais exclusivos, redução no imposto de construção e condições especiais para subdivisão. Uma oportunidade única para investir, construir e crescer com segurança.",
-        "property_re_1_price": "Sob consulta",
-
+"property_re_1_title": "Parque Industrial Santa Mónica",
+"property_re_1_location": "Hernandarias, Alto Paraná – Paraguai",
+"property_re_1_desc": "Empreendimento planejado com segurança 24 horas, próximo à subestação da ANDE, com administração de condomínio e aprovação legal. Lotes de 1.200 m², benefícios fiscais e condições especiais para subdivisão.",
+"property_re_1_price": "Sob consulta",
         
         //2
         "property_re_2_title": "Casa térrea - Bairro Boqueirão",
