@@ -140,17 +140,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 6. SISTEMA DE TRADUÇÃO ---
     const langSwitchers = document.querySelectorAll('.lang-switcher');
-    const flagElement = document.getElementById('current-lang-flag');
     const flags = {
         'pt-BR': '🇧🇷',
         'en': '🇬🇧',
         'es': '🇵🇾'
+    };
+    const langCodes = {
+        'pt-BR': 'PT',
+        'en': 'EN',
+        'es': 'ES'
     };
 
     const getLanguage = () => localStorage.getItem('language') || 'pt-BR';
     const setLanguage = (lang) => {
         localStorage.setItem('language', lang);
         translatePage(lang);
+    };
+    const updateActiveLanguage = (lang) => {
+        langSwitchers.forEach(link => {
+            const isActive = link.getAttribute('data-lang') === lang;
+            link.classList.toggle('active', isActive);
+        });
     };
 
     const translatePage = (lang) => {
@@ -168,8 +178,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (translationSet[key]) el.placeholder = translationSet[key];
         });
 
-        if (flagElement) flagElement.innerText = flags[lang];
         document.documentElement.lang = lang;
+        updateActiveLanguage(lang);
     };
 
     langSwitchers.forEach(switcher => {
@@ -179,5 +189,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Inicializa o idioma salvo e destaca o item ativo
     translatePage(getLanguage());
 });
