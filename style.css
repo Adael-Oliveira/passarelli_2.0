@@ -85,7 +85,49 @@ h1, h2, h3, h4, h5, h6 {
     min-width: auto;
 }
 
-.category-tabs {display:flex; background:#fff; border-radius:999px; padding:6px; box-shadow:0 6px 20px rgba(0,0,0,.06); margin:0 auto;}
+/* --- Language Switcher (bandeira + código) --- */
+.language-switcher .nav-link {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 6px 10px !important;
+    margin: 0 2px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.language-switcher .nav-link .flag {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.language-switcher .nav-link .lang-code {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    letter-spacing: 0.5px;
+}
+
+.language-switcher .nav-link:hover {
+    background: var(--secondary-color);
+    border-color: transparent;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.language-switcher .nav-link.active {
+    background: var(--primary-color);
+    color: white !important;
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 10px rgba(229, 57, 53, 0.25);
+}
+
+.language-switcher .nav-link.active .flag,
+.language-switcher .nav-link.active .lang-code {
+    opacity: 1;
+}
 .category-tabs .nav-link {border:2px solid transparent; border-radius:999px; margin:0; padding:12px 22px; background:transparent; color:var(--dark-color); transition:all .2s; display:flex; align-items:center; gap:10px; font-weight:600;}
 .category-tabs .nav-link i {font-size:1.1rem; opacity:.8;}
 .category-tabs .nav-link:hover {transform:translateY(-1px); box-shadow:none; background:var(--secondary-color);}
